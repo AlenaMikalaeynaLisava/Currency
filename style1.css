@@ -1,0 +1,19 @@
+select{
+    height: 25px;
+    width: 140px;
+    border: 1px solid black;
+}
+option{
+    height: 20px;
+    width: 140px;
+}
+p{
+    height: 20px;
+    width: 600px;
+    border: 1px solid black;
+}
+form{
+    height: 20px;
+    width: 100px; 
+    margin: 10px;
+}
