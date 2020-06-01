@@ -42,7 +42,8 @@ let yaer = date.getFullYear();
    button.addEventListener('click',(event)=>{
     if(byn.value && (abbreviation != "Select currency")){
       bynValue=byn.value;
-     result.innerText= "You can buy " +(bynValue/value).toFixed(2) + " " + abbreviation + " for " + bynValue +" BYN with  rate " + value + " for 1 ye on " + day+"/"+ month+"/"+yaer;
+      let val1= parseFloat(value).toFixed(2);
+     result.innerText= "You can buy " +(bynValue/value).toFixed(2) + " " + abbreviation + " for " + bynValue +" BYN with  rate " + val1 + " for 1 ye on " + day+"/"+ month+"/"+yaer;
     } else {
       button.disabled = true;
     }
